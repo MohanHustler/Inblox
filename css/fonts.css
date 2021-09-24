@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'avenirnext-regular';
+    src: url('../fonts/avenirnext-regular.ttf');
+}
+@font-face {
+    font-family: 'avenirnext-medium';
+    src: url('../fonts/avenirnext-medium.ttf');
+}
+@font-face {
+    font-family: 'avenirnext-heavy';
+    src: url('../fonts/avenirnext-heavy.ttf');
+}
+@font-face {
+    font-family: 'avenirnext-demibold';
+    src: url('../fonts/avenirnext-demibold.ttf');
+}
+@font-face {
+    font-family: 'avenirnext-bold';
+    src: url('../fonts/avenirnext-bold.ttf');
+}

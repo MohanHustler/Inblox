@@ -1,0 +1,41 @@
+.header-section{
+    position: fixed;
+    z-index: 9;
+    padding: 35px 65px;
+    width: 100%;
+}
+.header-section .header-logo{
+    display: inline-block;
+}
+.header-section .header-logo img{
+    width: 45px;
+}
+.header-menu{
+    display: inline-block;
+    float: right;
+}
+.header-menu .h-menu-icon{
+    padding: 15px;
+    cursor: pointer;
+}
+.header-menu .h-menu-icon span{
+    width: 20px;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+}
+.header-menu .h-menu-icon span:last-child{
+    width: 10px;
+    margin-top: 10px;
+}
+@media only screen and (max-width: 991px) {
+    .header-section {
+        padding: 15px 15px;
+    }
+    .header-section .header-logo img {
+        width: 35px;
+    }
+    .header-menu .h-menu-icon {
+        padding-right: 0px;
+    }
+}

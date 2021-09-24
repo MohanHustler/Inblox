@@ -1,0 +1,196 @@
+/* Modal */
+.common-popup .modal-content {
+  width: 75%;
+  height: 100%;
+  border-radius: 9.6px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 60px;
+}
+.common-popup .modal-body {
+  padding: 0px;
+}
+.common-popup .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  text-shadow: none;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 3;
+}
+.common-modal-heading {
+  margin-bottom: 50px;
+}
+.common-modal-heading h2 {
+  font-family: 'avenirnext-bold';
+  font-size: 36px;
+  color: #000000;
+}
+.common-modal-heading p {
+  font-family: 'avenirnext-regular';
+  font-size: 16px;
+  color: #000000;
+  margin-top: 15px;
+  opacity: 0.5;
+}
+/* career modal */
+.job-description {
+  margin-bottom: 50px;
+}
+.job-description h3 label {
+  font-family: 'avenirnext-regular';
+  font-size: 31px;
+  font-weight: 100;
+}
+.job-description h3 label:first-child {
+  margin-right: 10px;
+}
+.job-description h3 .vertical-line {
+  border-left: 3px solid #090909;
+  font-size: 26px;
+}
+.job-description h3 {
+  font-family: 'avenirnext-medium';
+  font-size: 36px;
+  color: #000000;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+.job-description ul {
+  margin-bottom: 57px;
+}
+.job-description ul li {
+  font-family: 'avenirnext-regular';
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.job-description .btn.btn-black {
+  min-width: 156px;
+  text-align: center;
+}
+
+/*Contact Us  */
+.contact-us {
+  padding: 30px 0px 90px;
+}
+.contact-us-popup {
+  top: 11%;
+}
+.contact-us-popup .modal-content {
+  width: 646px;
+  height: 412px;
+  border-radius: 10px;
+  background-color: #fefcff;
+}
+.contact-us-popup .modal-body {
+  text-align: center;
+}
+.contact-us h2 {
+  font-family: 'avenirnext-regular';
+  font-size: 36px;
+  color: #000000;
+  opacity: 0.61;
+}
+.contact-us h3 {
+  font-size: 45px;
+  font-family: 'avenirnext-demibold';
+  color: #000000;
+  margin-bottom: 20px;
+}
+.contact-us label {
+  width: 86px;
+  height: 1px;
+  object-fit: contain;
+  border-style: solid;
+  border-width: 3px;
+  border-image-source: radial-gradient(
+    circle at -8% 90%,
+    #0669f8,
+    #7303c0 34%,
+    #cb2d3e 73%,
+    #fda000 104%
+  );
+  border-image-slice: 1;
+}
+
+/* contact modal */
+.contact-popup.common-modal-heading h2 {
+  margin: 0px;
+  margin-bottom: 20px;
+}
+.contact-popup .form-group {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.contact-popup .form-group label {
+  font-size: 18px;
+  font-family: 'avenirnext-medium';
+  color: #898989;
+  width: 100%;
+}
+.contact-popup .form-group.message label {
+  margin-bottom: 10px;
+}
+.contact-popup .form-control {
+  font-size: 18px;
+  font-family: 'avenirnext-medium';
+  color: #898989;
+  border: none;
+  border-bottom: 1px solid #d2d2d2;
+  border-radius: unset;
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+  padding-left: 0px;
+}
+.contact-popup .message .form-control {
+  border: 1px solid #d2d2d2;
+  border-radius: 5px;
+}
+.contact-popup .form-control:focus {
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+.contact-popup .submit .btn.btn-black {
+  min-width: 156px;
+  text-align: center;
+}
+/* responsive */
+@media (min-width: 768px) {
+  .common-popup .modal-dialog {
+    width: auto !important;
+  }
+}
+@media (min-width: 576px) {
+  .common-popup .modal-dialog {
+    max-width: none;
+    margin: 1.75rem auto;
+  }
+}
+@media (max-width: 768px) {
+  .common-popup .modal-content {
+    width: 95%;
+    height: 100%;
+    padding: 20px;
+  }
+}
+@media (max-width: 537px) {
+  .contact-us h2 {
+    font-size: 28px;
+  }
+  .contact-us h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 420px) {
+  .contact-us {
+    padding: 55px 0px;
+  }
+  .contact-us h2 {
+    font-size: 20px;
+  }
+  .contact-us h3 {
+    font-size: 24px;
+  }
+}
